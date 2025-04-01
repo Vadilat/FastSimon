@@ -43,3 +43,11 @@ To run it locally:
 ```bash
 python test_app.py
 ```
+
+### Dependencies
+
+All required packages are listed in `requirements.txt`. To install them locally:
+
+```bash
+pip install -r requirements.txt
+```
