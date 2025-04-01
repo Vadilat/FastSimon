@@ -3,7 +3,7 @@
 ## Live App
 **Live App URL**: https://fastsimon-455407.ew.r.appspot.com/
 
-## ✅ Task II: Variable Commands
+## Task II: Variable Commands
 
 | Route                 | Description                             |
 |-----------------------|-----------------------------------------|
