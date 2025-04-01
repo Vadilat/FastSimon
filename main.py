@@ -210,15 +210,15 @@ def end_program():
 
     return ok("CLEANED")
 
-@app.route('/list')#show all variables
+#show all variables
+@app.route('/list')
 def list_variables():
     query = datastore_client.query(kind="Variable")
     entities = list(query.fetch())
     result = {e.key.name: e['value'] for e in entities}
     return ok(json.dumps(result))
 
-
-
+# helper functions
 def ok(msg):
     return msg, 200
 
