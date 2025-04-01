@@ -1,0 +1,12 @@
+runtime: python311
+
+entrypoint: gunicorn -b :$PORT main:app
+
+instance_class: F1
+
+env_variables:
+  GOOGLE_CLOUD_PROJECT: fastsimon-455407
+
+handlers:
+  - url: /.*
+    script: auto
