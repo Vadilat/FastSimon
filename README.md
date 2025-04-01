@@ -3,6 +3,10 @@
 ## Live App
 **Live App URL**: https://fastsimon-455407.ew.r.appspot.com/
 
+## Task I: Hello World
+This app was successfully deployed to Google App Engine with a basic “Hello, World!”. 
+Response available at the root route (`/`).
+
 ## Task II: Variable Commands Example:
 
 | Route                 | Description                             |
@@ -16,6 +20,7 @@
 | `/end`                | Cleans the database (removes all data)  |
 | `/list`               | Lists all variables and their values    |
 
+
 ### Bonus Feature – `list` Endpoint (Question 6)
 **Endpoint:**  
 `/list`  
@@ -28,3 +33,13 @@ Lists all currently defined variables and their values.
   "b": "20",
   "c": "30"
 }
+```
+### Testing
+
+The project includes a test file to help validate key commands like `/set`, `/get`, `/undo`, and `/redo`.
+
+To run it locally:
+
+```bash
+python test_app.py
+```
